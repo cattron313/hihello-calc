@@ -1,0 +1,6 @@
+.Calculator--equation {
+	color:ivory;
+	text-align:	right;
+	vertical-align: bottom;
+	overflow-x: scroll;
+}

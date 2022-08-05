@@ -1,0 +1,11 @@
+.Calculator--results {
+	color: darksalmon;
+	text-align:	right;
+	vertical-align: bottom;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: end;
+	font-size: 3rem;
+	overflow-x: scroll;
+}
+

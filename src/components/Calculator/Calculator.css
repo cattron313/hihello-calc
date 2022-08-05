@@ -1,0 +1,32 @@
+/* Default mobile devices and portrait tablets */
+.Calculator {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(1, 1, 28);
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+.Calculator--controls {
+	flex-basis: 50%;
+}
+
+.Calculator--results {
+	flex-basis: 33%;
+}
+
+/* Medium devices (landscape tablets) */
+@media only screen and (min-width: 768px) {
+	.Calculator {
+		width: 66%;
+		height: 66%;
+		border-radius: 1rem;
+		padding: 1rem;
+		box-shadow: 5px 5px 20px #383636;
+	}
+}
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 992px) {
+
+}
